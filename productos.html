@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nirvana Zone | Productos</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <span>NIRVANA ZONE</span>
+      </div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburguesa">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="carrito.html">Mi carrito</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Catálogo de Productos</h2>
+
+     <!-- Tarjeta de cada producto -->
+    <div class="products">
+      <article class="card">
+        <img src="img/producto_1.png" alt="COMBO GUILLERMITO" />
+        <h4>COMBO GUILLERMITO</h4>
+        <p>Precio: S/ 5.499,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="COMBO GUILLERMITO">Cargando...</span></p>
+        <button class="btn-comprar" data-id="1" data-nombre="COMBO GUILLERMITO" data-imagen="img/producto_1.png"
+          data-precio="5499.99">
+          Comprar
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="img/producto_2.png" alt="COMBO ANCONERO" />
+        <h4>COMBO ANCONERO</h4>
+        <p>Precio: S/ 2.199,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="COMBO ANCONERO">Cargando...</span></p>
+        <button class="btn-comprar" data-id="2" data-nombre="COMBO ANCONERO" data-imagen="img/producto_2.png"
+          data-precio="2199.99">
+          Comprar
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="img/producto_3.png" alt="COMBO CANCELADO" />
+        <h4>COMBO CANCELADO</h4>
+        <p>Precio: S/ 3.999,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="COMBO CANCELADO">Cargando...</span></p>
+        <button class="btn-comprar" data-id="3" data-nombre="COMBO CANCELADO" data-imagen="img/producto_3.png"
+          data-precio="3999.99">
+          Comprar
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="img/producto_4.png" alt="Razer Barracuda X" />
+        <h4>RAZER BARRACUDA X</h4>
+        <p>Precio: S/ 329,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="RAZER BARRACUDA X">Cargando...</span></p>
+        <button class="btn-comprar" data-id="4" data-nombre="RAZER BARRACUDA X" data-imagen="img/producto_4.png"
+          data-precio="329.99">
+          Comprar
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="img/producto_5.png" alt="LOGITECH G502 X PLUS" />
+        <h4>LOGITECH G502 X PLUS</h4>
+        <p>Precio: S/ 539,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="G502 X PLUS">Cargando...</span></p>
+        <button class="btn-comprar" data-id="5" data-nombre="G502 X PLUS" data-imagen="img/producto_5.png"
+          data-precio="539.99">
+          Comprar
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="img/producto_6.png" alt="UCAL PRO RGB" />
+        <h4>REDRAGON UCAL PRO RGB</h4>
+        <p>Precio: S/ 308,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="UCAL PRO RGB">Cargando...</span></p>
+        <button class="btn-comprar" data-id="6" data-nombre="UCAL PRO RGB" data-imagen="img/producto_6.png"
+          data-precio="308.99">
+          Comprar
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="img/producto_7.png" alt="COMBO LA FAMILIA ES PRIMERO" />
+        <h4>COMBO LA FAMILIA ES PRIMERO</h4>
+        <p>Precio: S/ 4.999,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="COMBO LA FAMILIA ES PRIMERO">Cargando...</span></p>
+        <button class="btn-comprar" data-id="7" data-nombre="COMBO LA FAMILIA ES PRIMERO"
+          data-imagen="img/producto_7.png" data-precio="4999.99">
+          Comprar
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="img/producto_8.png" alt="RTX 5060 TI" />
+        <h4>MSI RTX 5060 TI</h4>
+        <p>Precio: S/ 1.899,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="RTX 5060 TI MSI">Cargando...</span></p>
+        <button class="btn-comprar" data-id="8" data-nombre="RTX 5060 TI MSI" data-imagen="img/producto_8.png"
+          data-precio="1899.99">
+          Comprar
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="img/producto_9.png" alt="ASUS TUF GAMING A16" />
+        <h4>ASUS TUF GAMING A16</h4>
+        <p>Precio: S/ 3.699,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="ASUS TUF A16">Cargando...</span></p>
+        <button class="btn-comprar" data-id="9" data-nombre="ASUS TUF A16" data-imagen="img/producto_9.png"
+          data-precio="3699.99">
+          Comprar
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="img/producto_10.png" alt="K1 PRO" />
+        <h4>GRAVASTAR MERCURY K1 PRO</h4>
+        <p>Precio: S/ 607,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="MERCURY K1 PRO">Cargando...</span></p>
+        <button class="btn-comprar" data-id="10" data-nombre="MERCURY K1 PRO" data-imagen="img/producto_10.png"
+          data-precio="607.99">
+          Comprar
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="img/producto_11.png" alt="X PRO 8KHZ" />
+        <h4>GRAVASTAR MERCURY X PRO 8KHZ</h4>
+        <p>Precio: S/ 439,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="MERCURY X PRO 8KHZ">Cargando...</span></p>
+        <button class="btn-comprar" data-id="11" data-nombre="MERCURY X PRO 8KHZ" data-imagen="img/producto_11.png"
+          data-precio="439.99">
+          Comprar
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="img/producto_12.png" alt="LENOVO LEGION PRO" />
+        <h4>LENOVO LEGION PRO</h4>
+        <p>Precio: S/ 5.799,99</p>
+        <p>Stock: <span class="stock-real" data-nombre="LENOVO LEGION PRO">Cargando...</span></p>
+        <button class="btn-comprar" data-id="12" data-nombre="LENOVO LEGION PRO" data-imagen="img/producto_12.png"
+          data-precio="5799.99">
+          Comprar
+        </button>
+      </article>
+    </div>
+
+     <!-- Tabla dinamica-->
+    <h3 class="titulo-tabla">Tabla de especificaciones técnicas</h3>
+
+    <table class="table" id="especificaciones">
+      <tr>
+        <th>Producto</th>
+        <th>Especificaciones</th>
+        <th>Disponibilidad</th>
+      </tr>
+
+      <tr>
+        <td>COMBO GUILLERMITO</td>
+        <td>
+          Intel Core i7 12700KF, RTX 5070 12GB, 1TB SSD NVMe, 16GB 6000MHz
+        </td>
+        <td>En stock</td>
+      </tr>
+      <tr>
+        <td>COMBO ANCONERO</td>
+        <td>Ryzen 5 5500, RTX 3060 12GB, 480GB SSD MSI, 16GB 3200MHz</td>
+        <td>En stock</td>
+      </tr>
+      <tr>
+        <td>COMBO CANCELADO</td>
+        <td>
+          Intel Core i7 12700KF, RTX 4060, 1TB Kingston NV3, 16GB DDR5 6400MHz
+        </td>
+        <td>En stock</td>
+      </tr>
+      <tr>
+        <td>BARRACUDA X</td>
+        <td>Drivers 40mm, USB-C/BT 5.2, Sonido 7.1</td>
+        <td>En stock</td>
+      </tr>
+      <tr>
+        <td>G502 X PLUS</td>
+        <td>Sensor HERO, 25,600 DPI, 13 botones programables</td>
+        <td>En stock</td>
+      </tr>
+      <tr>
+        <td>UCAL PRO RGB</td>
+        <td>75%, Switch Red, triple conexión, RGB</td>
+        <td>En stock</td>
+      </tr>
+      <tr>
+        <td>MERCURY K1 PRO</td>
+        <td>75%, Kailh Speedy Mint, RGB, 8000mAh, Trimodo</td>
+        <td>En stock</td>
+      </tr>
+      <tr>
+        <td>MERCURY X PRO 8KHZ</td>
+        <td>49g, PAW3950, 32,000 DPI, 8000Hz, Trimodo</td>
+        <td>En stock</td>
+      </tr>
+      <tr>
+        <td>LENOVO LEGION PRO</td>
+        <td>i7-14650HX, RTX 5060, 1TB NVMe, 16GB 5600MHz</td>
+        <td>En stock</td>
+      </tr>
+      <tr>
+        <td>ASUS TUF GAMING</td>
+        <td>Ryzen 7 7735HS, RX7700S, 512GB NVMe, 16” 165Hz</td>
+        <td>En stock</td>
+      </tr>
+      <tr>
+        <td>RTX 5060 Ti Shadow</td>
+        <td>PCIe 5.0, 16GB GDDR7, 128-bit</td>
+        <td>En stock</td>
+      </tr>
+      <tr>
+        <td>COMBO LA FAMILIA ES PRIMERO</td>
+        <td>Ultra 7 265K, RTX 5060, 32GB DDR5, 1TB SSD</td>
+        <td>En stock</td>
+      </tr>
+    </table>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-sections">
+      <div class="footer-col">
+        <h4>LOCALES</h4>
+        <p>Av. Javier Prado Este 1234, San Isidro</p>
+        <p>C.C. Mega Plaza - Nivel 2, Los Olivos</p>
+        <p>Calle Las Begonias 567, Miraflores</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>SÍGUENOS</h4>
+        <div class="footer-icons">
+          <a href="https://www.instagram.com/marinaorox/" target="_blank"><img src="img/ig.png" alt="Instagram" /></a>
+          <a href="https://www.tiktok.com/@marinagoldtiktok?lang=es" target="_blank"><img src="img/tktk.png"
+              alt="TikTok" /></a>
+          <a href="https://www.youtube.com/@marinagoldxx" target="_blank"><img src="img/yt.png" alt="YouTube" /></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="footer-line" />
+    <p class="footer-copy">
+      NIRVANA ZONE - © 2025 TODOS LOS DERECHOS RESERVADOS
+    </p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

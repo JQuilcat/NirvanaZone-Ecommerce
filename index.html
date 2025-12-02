@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nirvana Zone | Inicio</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <span>NIRVANA ZONE</span>
+      </div>
+
+      <!-- Checkbox para menú responsive -->
+      <input type="checkbox" id="menu-toggle">
+      <!-- Botón hamburguesa -->
+      <label for="menu-toggle" class="hamburguesa">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- MENÚ PRINCIPAL -->
+      <nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="carrito.html">Mi carrito</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Potencia tus habilidades</h1>
+      <p>
+        PCs gaming, periféricos y audio diseñados para llevar tu rendimiento
+        al siguiente nivel.
+      </p>
+      <a href="productos.html" class="btn-hero">Ver catálogo</a>
+    </section>
+
+    <section>
+      <h2>Venta de aparatos gaming</h2>
+      <p id="texto-dinamico">
+        Ofrecemos teclados mecánicos, audífonos y PCs diseñadas para gamers
+        que buscan calidad, rendimiento y estilo en un solo lugar.
+      </p>
+    </section>
+
+    <section>
+      <h3>Productos destacados</h3>
+
+      <div class="products">
+        <article class="card">
+          <img src="img/producto_1.png" alt="COMBO GUILLERMITO" />
+          <h4>COMBO GUILLERMITO</h4>
+          <ul>
+            <li>Intel Core i7 12700KF</li>
+            <li>RTX 5070 12GB</li>
+            <li>1TB SSD NVMe</li>
+            <li>16GB 6000Mhz</li>
+          </ul>
+          <button onclick="location.href='productos.html#especificaciones'">
+            Ver mas
+          </button>
+        </article>
+
+        <article class="card">
+          <img src="img/producto_2.png" alt="COMBO ANCONERO" />
+          <h4>COMBO ANCONERO</h4>
+          <ul>
+            <li>Ryzen 5 5500</li>
+            <li>RTX 3060 12GB</li>
+            <li>480GB SATA MSI</li>
+            <li>16GB 3200Mhz</li>
+          </ul>
+          <button onclick="location.href='productos.html#especificaciones'">
+            Ver mas
+          </button>
+        </article>
+
+        <article class="card">
+          <img src="img/producto_3.png" alt="COMBO CANCELADO" />
+          <h4>COMBO CANCELADO</h4>
+          <ul>
+            <li>Intel Core i7 12700KF</li>
+            <li>RTX 4060</li>
+            <li>1TB Kingston NV3</li>
+            <li>16GB DDR5 6400MHz</li>
+          </ul>
+          <button onclick="location.href='productos.html#especificaciones'">
+            Ver mas
+          </button>
+        </article>
+
+        <article class="card">
+          <img src="img/producto_4.png" alt="BARRACUDA X" />
+          <h4>BARRACUDA X</h4>
+          <ul>
+            <li>Drivers TriForce 40mm</li>
+            <li>USB-C / BT 5.2</li>
+            <li>Sonido envolvente 7.1</li>
+          </ul>
+          <button onclick="location.href='productos.html#especificaciones'">
+            Ver mas
+          </button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-sections">
+      <div class="footer-col">
+        <h4>LOCALES</h4>
+        <p>Av. Javier Prado Este 1234, San Isidro</p>
+        <p>C.C. Mega Plaza - Nivel 2, Los Olivos</p>
+        <p>Calle Las Begonias 567, Miraflores</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>SÍGUENOS</h4>
+        <div class="footer-icons">
+          <a href="https://www.instagram.com/marinaorox/" target="_blank"><img src="img/ig.png" alt="Instagram" /></a>
+          <a href="https://www.tiktok.com/@marinagoldtiktok?lang=es" target="_blank"><img src="img/tktk.png"
+              alt="TikTok" /></a>
+          <a href="https://www.youtube.com/@marinagoldxx" target="_blank"><img src="img/yt.png" alt="YouTube" /></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="footer-line" />
+    <p class="footer-copy">
+      NIRVANA ZONE - © 2025 TODOS LOS DERECHOS RESERVADOS
+    </p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
